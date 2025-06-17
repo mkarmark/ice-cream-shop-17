@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function BlueberryBliss() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-purple-50 p-6">
@@ -24,7 +26,7 @@ export default function BlueberryBliss() {
             <li>Lemon zest</li>
           </ul>
         </div>
-        <a href="/" className="mt-4 text-purple-700 hover:underline text-center">&#8592; Back to Home</a>
+        <Link href="/" className="mt-4 text-purple-700 hover:underline text-center block">&#8592; Back to Home</Link>
       </div>
     </div>
   );

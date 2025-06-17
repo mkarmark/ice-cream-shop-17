@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ClassicVanilla() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-yellow-50 p-6">
@@ -24,7 +26,7 @@ export default function ClassicVanilla() {
             <li>Vanilla beans</li>
           </ul>
         </div>
-        <a href="/" className="mt-4 text-yellow-700 hover:underline text-center">&#8592; Back to Home</a>
+        <Link href="/" className="mt-4 text-yellow-700 hover:underline text-center block">&#8592; Back to Home</Link>
       </div>
     </div>
   );

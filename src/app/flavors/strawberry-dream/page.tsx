@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function StrawberryDream() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-pink-50 p-6">
@@ -24,7 +26,7 @@ export default function StrawberryDream() {
             <li>Natural flavors</li>
           </ul>
         </div>
-        <a href="/" className="mt-4 text-pink-600 hover:underline text-center">&#8592; Back to Home</a>
+        <Link href="/" className="mt-4 text-pink-600 hover:underline text-center block">&#8592; Back to Home</Link>
       </div>
     </div>
   );
